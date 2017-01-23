@@ -94,7 +94,7 @@
                             <h2>$5,000 to $5,000,000 in 24-72 hours?</h2>
 
                             <p>We're here to help you!</p>
-                            <a class="btn button" href="#">get started</a>
+                            <a class="btn button" href="/form">get started</a>
                         </div>
                     </div>
 

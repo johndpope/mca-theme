@@ -520,44 +520,40 @@
                             <div class="media-body">
                                 <h3>Prepare for the Unexpected: How to Keep Your Retirement</h3>
                                 <ul class="nav post-meta">
-                                    <li><a href="#">John Joe</a></li>
-                                    <li><a href="#"><i class="pe-7s-chat"></i>2 comment</a></li>
+                                    <li><a href="#">Admin</a></li>
                                     <li><a href="#"><i class="pe-7s-clock"></i>30 March</a></li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="news-info">
                         <div class="media">
                             <div class="media-left">
                                 <img src="{{Theme::url("image/l-news/left-2.jpg")}}" alt="">
                             </div>
                             <div class="media-body">
-                                <h3>Should I Invest Or Pay Down My Student Loans?</h3>
+                                <h3>
+                                    Should I Invest Or Pay Down My Student Loans?</h3>
                                 <ul class="nav post-meta">
-                                    <li><a href="#">John Joe</a></li>
-                                    <li><a href="#"><i class="pe-7s-chat"></i>2 comment</a></li>
+                                    <li><a href="#">Admin</a></li>
                                     <li><a href="#"><i class="pe-7s-clock"></i>30 March</a></li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="news-info">
                         <div class="media">
                             <div class="media-left">
                                 <img src="{{Theme::url("image/l-news/left-3.jpg")}}" alt="">
                             </div>
                             <div class="media-body">
-                                <h3>Finance news you need to know today</h3>
+                                <h3>
+
+                                    Finance news you need to know today</h3>
                                 <ul class="nav post-meta">
-                                    <li><a href="#">John Joe</a></li>
-                                    <li><a href="#"><i class="pe-7s-chat"></i>2 comment</a></li>
+                                    <li><a href="#">Admin</a></li>
                                     <li><a href="#"><i class="pe-7s-clock"></i>30 March</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <a class="read-button" href="#">Read more <i class="arrow_right"></i></a>
+                    <a class="read-button" href="/blog/posts">Read more <i class="arrow_right"></i></a>
                 </div>
                 <div class="col-md-6 l-news-right">
                     <div class="l-slider">

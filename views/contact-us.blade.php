@@ -41,7 +41,7 @@
                                 <h2>Customer support</h2>
 
                                 <p>we are here for you</p>
-                                <button type="submit" class="btn button">Get started</button>
+                                <a href="/form" class="btn button">Get started</a>
                             </div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@
                             as
                             soon as I can. That's a promise!</p>
 
-                        <form action="http://shtheme.com/html/financial/contact_process.php" id="contactForm"
-                              class="row contact-form" novalidate="novalidate">
+                        <form action="/form/contact-us" id="contactForm" class="row contact-form"
+                              novalidate="novalidate">
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <input for="range" type="text" id="name" name="name" placeholder="Your Name"
@@ -64,6 +64,7 @@
                                            class="form-control">
                                 </div>
                             </div>
+                            {{ csrf_field() }}
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <input type="email" id="email" name="email" placeholder="Your Email" required=""
@@ -83,7 +84,12 @@
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <button type="submit" class="btn button">Submit</button>
+                                <div class="alert alert-success contact-sent" style="display: none">Message Successfully
+                                    Sent
+                                </div>
+                                <div class="alert alert-danger contact-error" style="display: none">Error Submitting
+                                </div>
+                                <a type="submit" class="btn button contact-btn">Submit</a>
                             </div>
                         </form>
                         <div id="success">Your message succesfully sent!</div>
@@ -145,6 +151,42 @@
 @stop
 
 @section('script')
+    <script>
+        $(function () {
+            function isvalid($form) {
+                var valid = true;
+                $form.find('textarea,input').each(function () {
+                    var val = $(this).val();
+                    if (val == '') {
+                        $('.contact-error:visible').hide();
+                        $('.contact-error').text($(this).attr('placeholder') + ' is Required').fadeIn();
+                        valid = false;
+                        return false;
+
+                    }
+
+                });
+                return valid;
+            }
+
+            $('.contact-btn').click(function () {
+                var $form = $('#contactForm');
+                if (isvalid($form)) {
+                    var $btn = $(this).button('loading');
+                    $.ajax({
+                        url: '/form/contact-us'
+                        , type: 'POST'
+                        , data: $form.serialize()
+                        , success: function () {
+                            $btn.button('reset');
+                            $('.contact-sent').fadeIn();
+                        }
+                    });
+                }
+                return false;
+            });
+        });
+    </script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     {!! Theme::script("js/gmaps.min.js") !!}
 @stop
