@@ -20,11 +20,11 @@
     function teamCarousel() {
         if ($('.team').length) {
             $('.team').owlCarousel({
-                loop: true,
+                //loop: true,
                 margin: 30,
-                autoplay: true,
+                //autoplay: true,
                 nav: false,
-                items: 3,
+                items: 2,
                 responsiveClass: true,
                 responsive: {
                     0: {
@@ -34,14 +34,14 @@
                         items: 2,
                     },
                     1000: {
-                        items: 3,
+                        items: 2,
                     }
                 }
             })
         }
     }
 
-    teamCarousel();
+    //teamCarousel();
 
     /*======latest area carousel====*/
     function latestCarousel() {

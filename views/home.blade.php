@@ -310,166 +310,42 @@
             <div class="section-header">
                 <h2>Meet our team</h2>
             </div>
-            <div class="team">
-                <div class="item">
+            <div class="team text-center">
+                <div class=" col-md-4 col-md-offset-2">
                     <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/1.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
+                        <img src="{{Theme::url("image/team/1.jpg")}}" alt="">
+                        {{--<div class="team-img">--}}
+                            {{----}}
+                            {{--<ul class="social-icon">--}}
+                                {{--<li><a href="#"><i class="social_twitter"></i></a></li>--}}
+                                {{--<li><a href="#"><i class="social_facebook"></i></a></li>--}}
+                                {{--<li><a href="#"><i class="social_linkedin"></i></a></li>--}}
+                                {{--<li><a href="#"><i class="icon_mail"></i></a></li>--}}
+                            {{--</ul>--}}
+                        {{--</div>--}}
                         <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
+                            <a href="#"><h4>Mr. Chris Payne</h4></a>
 
-                            <p>Chartered Financial Advisor</p>
+                            <p>Owner</p>
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="col-md-4">
                     <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/2.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
+                        <img src="{{Theme::url("image/team/2.jpg")}}" alt="">
+                        {{--<div class="team-img">--}}
+                            {{----}}
+                            {{--<ul class="social-icon">--}}
+                                {{--<li><a href="#"><i class="social_twitter"></i></a></li>--}}
+                                {{--<li><a href="#"><i class="social_facebook"></i></a></li>--}}
+                                {{--<li><a href="#"><i class="social_linkedin"></i></a></li>--}}
+                                {{--<li><a href="#"><i class="icon_mail"></i></a></li>--}}
+                            {{--</ul>--}}
+                        {{--</div>--}}
                         <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
+                            <a href="#"><h4>Mr. Chris Loenstein</h4></a>
 
-                            <p>Chartered Financial Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/3.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
-
-                            <p>Chartered Financial Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/1.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
-
-                            <p>Chartered Financial Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/2.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
-
-                            <p>Chartered Financial Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/3.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
-
-                            <p>Chartered Financial Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/1.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
-
-                            <p>Chartered Financial Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/2.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
-
-                            <p>Chartered Financial Advisor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{Theme::url("image/team/3.jpg")}}" alt="">
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="social_twitter"></i></a></li>
-                                <li><a href="#"><i class="social_facebook"></i></a></li>
-                                <li><a href="#"><i class="social_linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon_mail"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <a href="#"><h4>John Joe</h4></a>
-
-                            <p>Chartered Financial Advisor</p>
+                            <p>Owner</p>
                         </div>
                     </div>
                 </div>
