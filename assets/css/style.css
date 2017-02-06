@@ -1602,10 +1602,12 @@ p {
 /*====================================================*/
 /*====================breadcrumb area css================*/
 .header-breadcrumb {
-    background: #adadad;
+    /*background: #adadad;*/
     padding: 60px 0px 72px;
     z-index: 0;
     overflow: hidden;
+    background-image: url("../image/slide2.jpg");
+    background-attachment: fixed;
 }
 
 .header-breadcrumb .page-cover .section-header h2 {
