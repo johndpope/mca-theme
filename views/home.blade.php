@@ -181,7 +181,89 @@
         </div>
     </section>
     <!--End call-action-baner-area-->
+    <!--start our process area-->
+    <section class="process-area" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How it Works</h2>
 
+                <p><b>Your Benefits</b> &dash; No commitment or obligation, Compare offers from different lenders
+                    and
+                    Instant access
+                    to future working capital</p>
+            </div>
+            <div class="row m0 p-timeline">
+                <div class="column">
+                    <div class="timeline">
+                        <div class="media">
+                            <div class="media-body">
+                                <h2>Fill Out Application Form</h2>
+                            </div>
+                            <div class="media-left">
+                                <span>01</span>
+                            </div>
+                        </div>
+                        <p>Provide us with your name and contact details. We will be needing these to process your
+                            loan
+                            application.</p>
+                    </div>
+                </div>
+                <div class="column top">
+                    <div class="timeline">
+                        <div class="media">
+                            <div class="media-left">
+                                <span>02</span>
+                            </div>
+                            <div class="media-body">
+                                <h2>Get Matched With Lenders</h2>
+                            </div>
+                        </div>
+                        <p>Check your loan options from our partner banks and lenders and choose the best one.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="timeline">
+                        <div class="media">
+                            <div class="media-body">
+                                <h2>Get Loan!</h2>
+                            </div>
+                            <div class="media-left">
+                                <span>03</span>
+                            </div>
+                        </div>
+                        <p>Get your loan after processing and approval from our partners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End  our process area-->
+    <!--start partner-logo-->
+    <section class="partner-logo-area">
+        <div class="container">
+            <div class="row">
+                <div class="section-header">
+                    <h2>Meet our Partners</h2>
+                </div>
+                <div class="col-md-2">
+                    <img src="{{Theme::url("image/client_logo1.png")}}" alt="">
+                </div>
+                <div class="col-md-3 middle_client">
+                    <img src="{{Theme::url("image/client_logo2.png")}}" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="{{Theme::url("image/client_logo3.png")}}" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="{{Theme::url("image/client_logo4.png")}}" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="{{Theme::url("image/client_logo5.png")}}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End partner-logo-->
     <!--start why-choose-us-area-->
     <section class="why-choose-us-area">
         <div class="container">
@@ -246,140 +328,59 @@
     </section>
     <!--End why-choose-us-area-->
 
-    <!--start our process area-->
-    <section class="process-area" id="how-it-works">
-        <div class="container">
-            <div class="section-header">
-                <h2>How it Works</h2>
 
-                <p><b>Your Benefits</b> &dash; No commitment or obligation, Compare offers from different lenders
-                    and
-                    Instant access
-                    to future working capital</p>
-            </div>
-            <div class="row m0 p-timeline">
-                <div class="column">
-                    <div class="timeline">
-                        <div class="media">
-                            <div class="media-body">
-                                <h2>Fill Out Application Form</h2>
-                            </div>
-                            <div class="media-left">
-                                <span>01</span>
-                            </div>
-                        </div>
-                        <p>Provide us with your name and contact details. We will be needing these to process your
-                            loan
-                            application.</p>
-                    </div>
-                </div>
-                <div class="column top">
-                    <div class="timeline">
-                        <div class="media">
-                            <div class="media-left">
-                                <span>02</span>
-                            </div>
-                            <div class="media-body">
-                                <h2>Get Matched With Lenders</h2>
-                            </div>
-                        </div>
-                        <p>Check your loan options from our partner banks and lenders and choose the best one.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="timeline">
-                        <div class="media">
-                            <div class="media-body">
-                                <h2>Get Loan!</h2>
-                            </div>
-                            <div class="media-left">
-                                <span>03</span>
-                            </div>
-                        </div>
-                        <p>Get your loan after processing and approval from our partners.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End  our process area-->
 
     <!--start team area-->
-    <section class="team-area">
-        <div class="container">
-            <div class="section-header">
-                <h2>Meet our team</h2>
-            </div>
-            <div class="team text-center">
-                <div class=" col-md-4 col-md-offset-2">
-                    <div class="team-item">
-                        <img src="{{Theme::url("image/team/1.jpg")}}" alt="">
-                        {{--<div class="team-img">--}}
-                            {{----}}
-                            {{--<ul class="social-icon">--}}
-                                {{--<li><a href="#"><i class="social_twitter"></i></a></li>--}}
-                                {{--<li><a href="#"><i class="social_facebook"></i></a></li>--}}
-                                {{--<li><a href="#"><i class="social_linkedin"></i></a></li>--}}
-                                {{--<li><a href="#"><i class="icon_mail"></i></a></li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                        <div class="text">
-                            <a href="#"><h4>Mr. Chris Payne</h4></a>
+    {{--<section class="team-area">--}}
+    {{--<div class="container">--}}
+    {{--<div class="section-header">--}}
+    {{--<h2>Meet our team</h2>--}}
+    {{--</div>--}}
+    {{--<div class="team text-center">--}}
+    {{--<div class=" col-md-4 col-md-offset-2">--}}
+    {{--<div class="team-item">--}}
+    {{--<img src="{{Theme::url("image/team/1.jpg")}}" alt="">--}}
+    {{--<div class="team-img">--}}
+    {{----}}
+    {{--<ul class="social-icon">--}}
+    {{--<li><a href="#"><i class="social_twitter"></i></a></li>--}}
+    {{--<li><a href="#"><i class="social_facebook"></i></a></li>--}}
+    {{--<li><a href="#"><i class="social_linkedin"></i></a></li>--}}
+    {{--<li><a href="#"><i class="icon_mail"></i></a></li>--}}
+    {{--</ul>--}}
+    {{--</div>--}}
+    {{--<div class="text">--}}
+    {{--<a href="#"><h4>Mr. Chris Payne</h4></a>--}}
 
-                            <p>Owner</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-item">
-                        <img src="{{Theme::url("image/team/2.jpg")}}" alt="">
-                        {{--<div class="team-img">--}}
-                            {{----}}
-                            {{--<ul class="social-icon">--}}
-                                {{--<li><a href="#"><i class="social_twitter"></i></a></li>--}}
-                                {{--<li><a href="#"><i class="social_facebook"></i></a></li>--}}
-                                {{--<li><a href="#"><i class="social_linkedin"></i></a></li>--}}
-                                {{--<li><a href="#"><i class="icon_mail"></i></a></li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                        <div class="text">
-                            <a href="#"><h4>Mr. Chris Loenstein</h4></a>
+    {{--<p>Owner</p>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="col-md-4">--}}
+    {{--<div class="team-item">--}}
+    {{--<img src="{{Theme::url("image/team/2.jpg")}}" alt="">--}}
+    {{--<div class="team-img">--}}
+    {{----}}
+    {{--<ul class="social-icon">--}}
+    {{--<li><a href="#"><i class="social_twitter"></i></a></li>--}}
+    {{--<li><a href="#"><i class="social_facebook"></i></a></li>--}}
+    {{--<li><a href="#"><i class="social_linkedin"></i></a></li>--}}
+    {{--<li><a href="#"><i class="icon_mail"></i></a></li>--}}
+    {{--</ul>--}}
+    {{--</div>--}}
+    {{--<div class="text">--}}
+    {{--<a href="#"><h4>Mr. Chris Loenstein</h4></a>--}}
 
-                            <p>Owner</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    {{--<p>Owner</p>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--</section>--}}
     <!--End team area-->
 
-    <!--start partner-logo-->
-    <section class="partner-logo-area">
-        <div class="container">
-            <div class="row">
-                <div class="section-header">
-                    <h2>Meet our Partners</h2>
-                </div>
-                <div class="col-md-2">
-                    <img src="{{Theme::url("image/client_logo1.png")}}" alt="">
-                </div>
-                <div class="col-md-3 middle_client">
-                    <img src="{{Theme::url("image/client_logo2.png")}}" alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="{{Theme::url("image/client_logo3.png")}}" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="{{Theme::url("image/client_logo4.png")}}" alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="{{Theme::url("image/client_logo5.png")}}" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End partner-logo-->
+
 
     <!--start latest news area-->
     <section class="latest-news-area">
@@ -389,44 +390,20 @@
                     <h2 class="tittle">latest NEWS</h2>
 
                     <div class="news-info">
-                        <div class="media">
+                        <div class="media news-item">
                             <div class="media-left">
-                                <img src="{{Theme::url("image/l-news/left-1.jpg")}}" alt="">
+                            <img src="{{Theme::url("image/l-news/left-2.jpg")}}" alt="">
                             </div>
-                            <div class="media-body">
-                                <h3>Prepare for the Unexpected: How to Keep Your Retirement</h3>
+                            <di class="media-body">
+                                <a>
+                                    <h3 class="blog-title">Prepare for the Unexpected: How to Keep Your Retirement</h3>
+                                </a>
                                 <ul class="nav post-meta">
-                                    <li><a href="#">Admin</a></li>
-                                    <li><a href="#"><i class="pe-7s-clock"></i>30 March</a></li>
+                                    {{--<li><a href="#">Admin</a></li>--}}
+                                    <li><a href="#"><i class="pe-7s-clock"></i><span
+                                                    class="blog-date">30 March</span></a></li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="{{Theme::url("image/l-news/left-2.jpg")}}" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3>
-                                    Should I Invest Or Pay Down My Student Loans?</h3>
-                                <ul class="nav post-meta">
-                                    <li><a href="#">Admin</a></li>
-                                    <li><a href="#"><i class="pe-7s-clock"></i>30 March</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <img src="{{Theme::url("image/l-news/left-3.jpg")}}" alt="">
-                            </div>
-                            <div class="media-body">
-                                <h3>
-
-                                    Finance news you need to know today</h3>
-                                <ul class="nav post-meta">
-                                    <li><a href="#">Admin</a></li>
-                                    <li><a href="#"><i class="pe-7s-clock"></i>30 March</a></li>
-                                </ul>
-                            </div>
+                            </di>
                         </div>
                     </div>
                     <a class="read-button" href="/blog/posts">Read more <i class="arrow_right"></i></a>
@@ -435,48 +412,41 @@
                     <div class="l-slider">
                         <div class="item">
                             <div class="slider-contennt">
-                                <p>They are my first and only call when I need financing. I needed financing quickly
-                                    to fund
-                                    an event that I otherwise would not have been able to take on. Thank you
-                                    AveNew!</p>
+                                <p>Great company and team that takes care of you. Very simple and extremely quick.</p>
 
-                                <div class="slider-img">
-                                    <img class="img-circle" src="{{Theme::url("image/l-news/avatar3.jpg")}}" alt="">
-                                </div>
-                                <a href="#"><h4>Michele,<span> Texas. CEO</span></h4></a>
+                                {{--<div class="slider-img">--}}
+                                {{--<img class="img-circle" src="{{Theme::url("image/l-news/avatar3.jpg")}}" alt="">--}}
+                                {{--</div>--}}
+                                <a href="#"><h4>D. S.</h4></a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="slider-contennt">
-                                <p><strong>Paul McKenzie</strong> is one of a kind! He has been nothing but
-                                    professional and
-                                    consistent in guiding me
-                                    through all the available options. He is knowledgeable and forward-looking, he
-                                    is
-                                    already processing my next loan!.</p>
+                                <p>In our time of need AveNew was a godsend. We really lucked out when we connected with
+                                    <b>Mark</b> and his team. They took the time to listen and made me feel completely
+                                    at ease
+                                    through the entire process. Thank YOU AveNew!!</p>
 
-                                <div class="slider-img">
-                                    <img class="img-circle" src="{{Theme::url("image/l-news/avatar2.jpg")}}" alt="">
-                                </div>
-                                <a href="#"><h4>Charlie,<span> New York. CEO</span></h4></a>
+                                {{--<div class="slider-img">--}}
+                                {{--<img class="img-circle" src="{{Theme::url("image/l-news/avatar2.jpg")}}" alt="">--}}
+                                {{--</div>--}}
+                                <a href="#"><h4>J. B.</h4></a>
                             </div>
                         </div>
                         <div class="item">
                             <div class="slider-contennt">
                                 <p>
-                                    Wow, want to save time and headaches? Look into AveNew Funding first! This is my
-                                    third
-                                    round of funding with them. My rep Ryan Ray is a superstar and understand the
-                                    whole
-                                    process. Honesty and integrity is what I have come to expect, which is why
-                                    AveNew is
-                                    FIRST.
+                                    I normally don&lsquo;t write reviews for companies but I felt that in this case it
+                                    was
+                                    deserved. Avenew funding was very professional every step of the way but more
+                                    importantly they were persistent and honest. I was very pleasantly surprised with
+                                    how the process went.
                                 </p>
 
-                                <div class="slider-img">
-                                    <img class="img-circle" src="{{Theme::url("image/l-news/avatar1.jpg")}}" alt="">
-                                </div>
-                                <a href="#"><h4>Rex,<span> Toronto. CEO</span></h4></a>
+                                {{--<div class="slider-img">--}}
+                                {{--<img class="img-circle" src="{{Theme::url("image/l-news/avatar1.jpg")}}" alt="">--}}
+                                {{--</div>--}}
+                                <a href="#"><h4>C. M.</h4></a>
                             </div>
                         </div>
                     </div>
@@ -564,6 +534,30 @@
 @section('script')
     <script>
         $(function () {
+            var news_item = maketemplate('.news-item:eq(0)');
+            var mm = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            $('.news-item:eq(0)').remove();
+            $.ajax({
+                url: '/form/recents'
+                , type: 'GET'
+                , dataType: 'JSON'
+                , success: function (data) {
+                    console.log(data.latestPosts);
+                    $.each(data.latestPosts, function (index, value) {
+                        var _date = new Date(value.created_at);
+                        var created_date = _date.getDate() + ' ' + mm[_date.getMonth()];
+                        var item = $(news_item);
+                        item.find('.blog-title').text(value.title);
+                        item.find('.blog-date').text(created_date);
+                        item.find('a').attr('href','/blog/posts/'+value.slug);
+                        $('.news-info').append(item);
+                    });
+                }
+//                , error: function (XMLHttpRequest, textStatus, errorThrown) {
+//                    alert("some error");
+//                }
+            });
+
             $('#submit_application').click(function () {
                 var $btn = $(this).button('loading');
                 var data = $('[name="applyform"]').serialize();
@@ -578,6 +572,11 @@
                     }
                 });
             });
+
+            function maketemplate(id) {
+                return $("<div></div>").append($(id).clone()).html();
+            }
+
         });
     </script>
 @stop

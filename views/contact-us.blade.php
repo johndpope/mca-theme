@@ -132,7 +132,7 @@
                                         <i class="pe-7s-clock" aria-hidden="true"></i>
                                     </div>
                                     <div class="media-body">
-                                        07:30 &dash; 19:00<br> Monday to Friday
+                                        09:00 &dash; 18:00<br> Monday to Friday
                                     </div>
                                 </div>
                             </li>

@@ -60,7 +60,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            08:00 &dash; 17:00<br>
+                            09:00 &dash; 18:00<br>
                             Monday to Friday
                         </div>
                     </div>

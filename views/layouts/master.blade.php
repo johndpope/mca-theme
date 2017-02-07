@@ -50,7 +50,7 @@
             <ul class="nav top-nav">
                 <li><a href="#"><i class="pe-7s-mail" aria-hidden="true"></i> info@avenewfunding.com</a></li>
                 <li><a href="#"><i class="pe-7s-call"></i>973-577-8950</a></li>
-                <li><a href="#"><i class="pe-7s-clock"></i>07:30 &dash; 19:00 Monday to Friday</a></li>
+                <li><a href="#"><i class="pe-7s-clock"></i>09:00 &dash; 18:00 Monday to Friday</a></li>
             </ul>
             {{--<a class="search" href="#"><i class="pe-7s-search"></i></a>--}}
         </div>
